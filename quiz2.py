@@ -1,3 +1,4 @@
+#Quiz 2 
 x = int (input("select a number: "))
 y = int (input("select another number: "))
 z = input ("which operation do you want to perform. seclect from *, /, + or -: ")
@@ -15,3 +16,4 @@ elif z=="-":
     print (x-y)
 else:
     print ("enter a valid operator")
+
