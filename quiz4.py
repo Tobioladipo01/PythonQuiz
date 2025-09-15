@@ -9,22 +9,6 @@ print (f"you have {y} number of words")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 '''user = input ("Enter any sentence:")
 words = user.split()
 y = (len(words))
