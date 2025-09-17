@@ -8,17 +8,17 @@ while True:
         for x in shoppinglist:
             print(x)
 
-    elif userinput == "add":
+    elif "add" in userinput:
         useritems = input ("Add an item to the list:")
         shoppinglist.append(useritems)
         print(f"{useritems} added to the list")
 
-    elif userinput == "remove":
+    elif "remove" in userinput:
         userremove = input ("what item do you want to remove? ")
         shoppinglist.remove(userremove)
         print(f"{userremove} has been removed from the list")
 
-    elif userinput == "quit":
+    elif "quit" in userinput:
         print ("Thank you for using our software. Hope to see you next time")
         break
 
